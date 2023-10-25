@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping list</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="grocery-list">
+        <h1 class="grocer-list__title">Список покупок</h1>
+        <form>
+            <input class="grocery-list__form" type="text">
+            <button class="grocery-list__btn" type="submit" value="add">Добавить</button>
+        </form>
+        <ul class="grocer-list__list">
+            <li class="grocery-list__wrapper">
+                <p class="grocery-list__subtitle">Cписок покупок пуст...</p>
+                <img class="grocery-list__image" src="./img/food_basket.png" alt="корзина">
+            </li>
+        </ul>
+        <button class="grocery-list__btn grocery-list__btn-clear" value="clear">Очистить список</button>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

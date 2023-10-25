@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Marck Script', cursive;
+    color: rgb(50, 50, 50);
+    padding: 20px 0;
+    background: url(./img/backgraund_wood.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 30px;
+}
+
+.grocery-list {
+    position: relative;
+    width: 600px;
+    min-height: 94vh;
+    margin: 0 auto;
+    padding: 20px 60px 70px 60px;
+    background: url(./img/paper_background.jpg) no-repeat;
+    background-size: cover;
+    box-shadow: 12px 12px 20px 8px rgba(0, 0, 0, 0.5);
+}
+
+.grocer-list__title {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.grocery-list__form {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid rgb(50, 50, 50);
+    background: transparent;
+    margin: 0 auto 10px auto;
+    font-family: 'Marck Script', cursive;
+    font-size: 30px;
+}
+
+.grocery-list__btn {
+    display: block;
+    margin: 0 auto;
+    background-color: #e8c49c;
+    padding: 5px 30px;
+    font-family: 'Marck Script', cursive;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.grocery-list form {
+    margin-bottom: 40px;
+}
+
+.grocer-list__list {
+    list-style-type: none;
+}
+
+.grocer-list__list-item {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.grocer-list__list-item::before {
+    content: '-';
+    position: relative;
+    left: -10px;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: rgb(151, 151, 151);;
+}
+
+.grocery-list__btn-clear {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.grocery-list__wrapper {
+    margin-top: 90px;
+}
+
+.grocery-list__subtitle {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px
+}
+
+.grocery-list__image {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
